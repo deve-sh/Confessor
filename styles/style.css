@@ -1,0 +1,250 @@
+/*
+	Fonts
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway');
+
+/* Main CSS */
+
+*{
+	box-sizing: border-box;
+	transition: 0.2s;
+}
+
+body{
+	max-width: 100vw;
+	width: 100%;
+	line-height: 1.6;
+	padding: 0;
+	min-height: 100vh;
+	overflow-x: hidden;
+	font-size: 1em;
+	font-family: 'Open Sans','Raleway','Montserrat',sans-serif;
+	margin: 0;
+}
+
+/* Header */
+
+#bodyheader{
+	padding: 0rem;
+	height: auto;
+	overflow: auto;
+	background: #383b43;
+	color: #ffffff;
+}
+
+#bodyheader a{
+	color: #ffffff;
+}
+
+#bodyheader .left{
+	padding: 1rem;
+	width: 50%;
+	margin: 0;
+	text-align: left;
+	float: left;
+}
+
+#bodyheader .right{
+	padding: 1rem;
+	width: 50%;
+	margin:0;
+	float: right;
+	text-align: right;
+}
+
+/* Body */
+
+.mainbody{
+	padding: 0;
+}
+
+.mainbody main{
+	padding: 1rem;
+	min-height: 86vh;
+}
+
+/* Index Page */
+
+#indexintro{
+	padding: 2rem;
+	padding-top: 25%;
+	padding-bottom: 35%;
+	min-height: 95vh;
+	background : #3cadd4;
+	color : #ffffff;
+}
+
+.secindex{
+	padding: 1rem;
+}
+
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+.registerbutton{
+	padding: 1rem;
+	color : #ffffff;
+	background: #383b43;
+	display: inline-block;
+	border-radius: 0.2rem;
+}
+
+.loginbutton{
+	padding: 0.9rem;
+	border : 0.1rem solid #ffffff;
+	color : #ffffff;
+	margin-left: 0.5em;
+	background : transparent;
+	display: inline-block;
+	border-radius: 0.2rem;
+}
+
+/* Login Form */
+
+#loginform{
+	padding: 0.8rem;
+	border : 0.1rem solid #cfcfcf;
+	display: inline-block;
+	border-radius: 0.25rem;
+}
+
+#loginform input{
+	padding: 0.6rem;
+	border: 0.1rem solid #cfcfcf;
+	outline: none;
+}
+
+#loginform button{
+	padding: 0.6rem;
+	color : #ffffff;
+	background: #00ad9f;
+	width: 100%;
+	border: none;
+	outline: none;
+	border-radius: 0.1rem;
+	box-shadow : 0 2px 4px 0 rgba(14,30,37,.12);
+}
+
+/* Footer */
+
+footer{
+	padding: 1rem;
+	background : #383b43;
+	color: #ffffff;
+}
+
+footer a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Share Page */
+
+.sharepage{
+	padding: 1rem;
+	padding-top: 8%;
+	text-align: center;
+}
+
+.sharepage .confession{
+	background: #ffffff;
+	font-family: 'Montserrat','Raleway','Open Sans',sans-serif;
+	padding: 1rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	box-shadow : rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+	width: 80%;
+	border-radius: 0.2rem;
+}
+
+.sharepage .confession a{
+	color: #3e75ee;
+}
+
+.confheader{
+	font-size: 2.6em;
+	color : #ffffff;
+}
+
+/* Install Page */
+
+.installpage{
+	padding: 1rem;
+	color: #ffffff;
+	font-family: 'Raleway','Montserrat',sans-serif;
+	background: #00B4DB;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	text-align: center;
+}
+
+.installpage #installheader{
+	font-size : 2em;
+}
+
+.installpage #details{
+	padding: 1rem;
+	background: #ffffff;
+	color: #343434;
+	border-radius: 0.2rem;
+	display: inline-block;
+	box-shadow : rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+}
+
+.installpage #details input{
+	padding: 0.6rem;
+	width: 100%;
+	border : 1px solid #cfcfcf;
+	outline: none;
+}
+
+.installpage #details button{
+	padding: 0.6rem;
+	color : #ffffff;
+	background: #00ad9f;
+	width: 100%;
+	border: none;
+	outline: none;
+	border-radius: 0.1rem;
+	box-shadow : 0 2px 4px 0 rgba(14,30,37,.12);
+}
+
+/* User CP */
+
+.confession{
+	padding: 0rem;
+	width: 100%;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 0s;
+}
+
+.confession a{
+	color: #495057;
+}
+
+.confession .act{
+	padding: 1rem;
+}
+
+.confession .options{
+	background: #efefef;
+	overflow: auto;
+}
+
+.confession .options .cstamp{
+	width: 40%;
+	padding: 0.8rem;
+	font-size: 0.8em;
+	float: left;
+}
+
+.confession .options .right{
+	width: 60%;
+	text-align: right;
+	padding: 0.8rem;
+	font-size: 0.8em;
+	float: right;
+}
