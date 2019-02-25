@@ -18,8 +18,6 @@
 			if($_SESSION['clogin']==true && $_SESSION['cuserid']){
 				// User Logged in Options.
 				?>
-					<a href="search.php" title="Search"><i class="fas fa-search"></i></a>
-					&nbsp&nbsp
 					<?php
 
 					if(strpos($_SERVER['PHP_SELF'],'usercp.php')!=false)

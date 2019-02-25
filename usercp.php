@@ -22,7 +22,7 @@
 <body class="mainbody">
 	<?php include 'header.php'; ?>
 	<main>
-	<div align="center"><h3>Confessions</h3></div>
+	<div align="center"><h3>Confessions</h3>
 	<?php
 		if($userquery = $db->query("SELECT * FROM ".$subs."confessions WHERE recid='".$_SESSION['cuserid']."'"))
 		{
@@ -30,6 +30,10 @@
 		}
 
 		//	Getting the data from the database.
+
+		if($numrows == 0){
+			echo "<br><br><div align='center'>No Confessions Yet.</div><br><br>";
+		}
 
 		// Pagination
 
@@ -109,7 +113,7 @@
 		
 		   if (($x > 0) && ($x <= $totalpages)) {
 		      if ($x == $currentpage) {
-		         echo " [<b>$x</b>] ";
+		         echo " <span class='activepage'>$x</span> ";
 		      
 		      } else {
 		         echo " <a href='{$_SERVER['PHP_SELF']}?currentpage=$x'>$x</a> ";
@@ -123,13 +127,13 @@
 		    
 		   if($totalpages>1)
 		   {
-		   		echo " <a href='{$_SERVER['PHP_SELF']}?currentpage=$nextpage'>></a> ";
+		   		echo " <span class='nextpage'><a href='{$_SERVER['PHP_SELF']}?currentpage=$nextpage'>></a></span> ";
 		   
-		   		echo " <a href='{$_SERVER['PHP_SELF']}?currentpage=$totalpages'>>></a> ";
+		   		echo " <span class='nextpage'><a href='{$_SERVER['PHP_SELF']}?currentpage=$totalpages'>>></a></span> ";
 		   }
 		}
 	?>
-		</div>
+		</div></div>
 	</main>
 	<?php require('inc/scripts.php'); ?>
 	<?php include 'footer.php'; ?>
