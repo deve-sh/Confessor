@@ -15,7 +15,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo $appname; ?> - Show On Profile</title>
+	<title><?php echo $appname; ?> - Hide From Profile</title>
 	<?php include 'inc/styles.php'; ?>
 </head>
 <body class="mainbody">

@@ -1,1 +1,1 @@
-<script type="text/javascript" src="scripts/footer.js"></script>
+<!-- Place All The Necessary Scripts Here -->

@@ -24,7 +24,7 @@
         <?php include 'inc/styles.php'; ?>
         <?php include 'inc/header.php'; ?>
     </head>
-    <body>
+    <body id='indexpage'>
     	<div id='indexintro'>
     		<div align="center">
                 <span class="confheader">

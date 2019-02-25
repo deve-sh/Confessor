@@ -8,7 +8,7 @@
 
 *{
 	box-sizing: border-box;
-	transition: 0.2s;
+	transition: 0.1s;
 }
 
 body{
@@ -62,6 +62,10 @@ body{
 .mainbody main{
 	padding: 1rem;
 	min-height: 86vh;
+}
+
+.mainbody main a{
+	color : #3e75ee;
 }
 
 /* Index Page */
@@ -131,9 +135,15 @@ a{
 /* Footer */
 
 footer{
-	padding: 1rem;
-	background : #383b43;
+	padding: 1.5rem;
+	background : #165caa;
 	color: #ffffff;
+	border-bottom: 1rem solid #06468d;
+}
+
+#indexpage footer{
+	background: #383b43;
+	border: none;
 }
 
 footer a{
@@ -157,6 +167,7 @@ footer a{
 	padding-bottom: 2rem;
 	box-shadow : rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
 	width: 80%;
+	text-align: center;
 	border-radius: 0.2rem;
 }
 
@@ -249,6 +260,10 @@ footer a{
 	padding: 0.8rem;
 	font-size: 0.8em;
 	float: right;
+}
+
+.confession .options .right a{
+	color: #088f77;
 }
 
 .activepage{
