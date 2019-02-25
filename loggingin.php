@@ -58,7 +58,9 @@
 					}
 				}
 				else{
-					echo "<br>Invalid Username.<br>";
+					echo "<br>Invalid Username Or Email. Try Again<br>";
+					header("refresh:1;url=login.php");
+					exit();
 				}
 			}
 			else{
