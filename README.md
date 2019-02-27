@@ -26,7 +26,7 @@ Visit the path in a web browser. The Script will automatically redirect to the /
 <ul>
   <li>Responsive Design.</li>
   <li>Beautiful Interface.</li>
-  <li>Beautiful Share Page for Confessions.</li>'
+  <li>Beautiful Share Page for Confessions.</li>
   <li>Anonymity for Users.</li>
   <li>SQL Injection Resistant.</li>
 </ul>
